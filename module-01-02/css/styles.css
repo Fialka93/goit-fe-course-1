@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Playfair-display', sans-serif;
+    background-color: #f9f9f9;
+    background-position: center;
+}
+
+img {
+    display: block;
+    max-width: 420px;
+    height: 280px;
+}
+
+.wrapper {
+    width: 901px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* MAIN MENU SECTION */
+.main-menu {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main-menu li:not(last-child) {
+    margin-right: 50px;
+}
+
+.main-menu-item a {
+    text-decoration-line: none;
+    color: #626262;
+}
+
+.main-nav {
+    padding: 76px 0px;
+    margin-bottom: 27px;
+}
+
+.main-menu-item {
+    display: inline-block;
+    line-height: 24px;
+}
+
+.main-content-list {
+    list-style-type: none;
+}
+.main-menu-item a:hover,
+.main-menu-item a:focus {
+    color: #03a9f4;
+  }
+
+/* MAIN CONTENT SECTION */
+.main-content-list {
+      margin: 0px;
+      padding: 0px;
+      font-size: 0px;
+      margin-bottom: 52px;
+  }
+
+.main-content-list-item {
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+    color: #626262;
+    margin-right: 58px;
+    margin-bottom: 130px;
+    text-align: left;
+}
+
+.main-content-list-item:nth-last-child(-n+2) {
+    margin-bottom: 0px;
+}
+
+.main-content-list-item:nth-child(2n) {
+    margin-right: 0px;
+}
+
+.main-content-list-item p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.main-content-list-item img {
+    margin-bottom: 30px;
+}
+
+.main-content-list-item h3 {
+    font-size: 30px;
+    margin-bottom: 36px;
+}
+.list-item-mark {
+    font-family: 'Ubuntu', serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-bottom: 33px;
+}
+
+/* THE BUTTON */
+.load-more {
+    margin: 0;
+    padding: 20px 34px;
+    margin-bottom: 70px;
+    background-color: #fafafa;
+    border: 1px solid rgb(98, 98, 98);
+    background-position: center;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 24px;
+    
+}
