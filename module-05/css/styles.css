@@ -138,6 +138,12 @@ main {
   height: 602px;
   background: #232323;
 }
+.slide {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .slider-control {
   position: absolute;
   top: 50%;
@@ -239,7 +245,8 @@ main {
   opacity: 0;
 }
 
-.categories-item-darkener:hover, .categories-item-darkener:focus {
+.categories-item-darkener:hover,
+.categories-item-darkener:focus {
   opacity: 1;
 }
 
@@ -272,24 +279,28 @@ main {
   background-color: transparent;
 }
 
-.bt:hover, .bt:focus {
+.bt:hover,
+.bt:focus {
   background: rgb(26, 188, 156);
   border: rgb(26, 188, 156) solid 1px;
 }
 
-.like:hover, .like:focus {
+.like:hover,
+.like:focus {
   background-image: url("../img/icon-1.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.switch:hover, .switch:focus {
+.switch:hover,
+.switch:focus {
   background-image: url("../img/icon-2.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.clock:hover, .clock:focus {
+.clock:hover,
+.clock:focus {
   background-image: url("../img/icon-3.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -335,10 +346,14 @@ main {
   margin-top: -3px;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
-.categories-item:hover, .categories-item:focus, .link-item:hover, .link-item:focus, .category-name:hover, .category-name:focus .categories-item-darkener{
+.categories-item:hover,
+.categories-item:focus,
+.link-item:hover,
+.link-item:focus,
+.category-name:hover,
+.category-name:focus .categories-item-darkener {
   opacity: 1;
 }
 
@@ -358,6 +373,7 @@ main {
 .link-item {
   margin: auto;
   padding: 0px;
+  position: relative;
 }
 
 .categories-item:nth-child(4n) {
@@ -374,7 +390,14 @@ main {
   float: left;
   margin: 0;
   color: #ffffff;
-  background: #323232;
+  background: linear-gradient(
+    90deg,
+    #323232,
+    #323232 80%,
+    rgb(140, 140, 140) 80%,
+    rgb(140, 140, 140) 100%
+  );
+
   font-size: 18px;
   font-weight: 700;
   line-height: 40px;
@@ -382,31 +405,31 @@ main {
   width: 255px;
 }
 
-.category-name::after {
+.category-price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
   content: "";
   display: block;
   float: right;
   width: 54px;
   height: 40px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.44);
-}
-
-.item-1::after {
-  content: "$26";
-}
-.item-2::after {
-  content: "$31";
-}
-.item-3::after {
-  content: "$21";
-}
-.item-4::after {
-  content: "$56";
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
 }
 
 .link-item:hover .category-name {
-  background: #1abc9c;
+  background: linear-gradient(
+    90deg,
+    #1abc9c,
+    #1abc9c 80%,
+    rgb(127, 217, 199) 80%,
+    rgb(127, 217, 199) 100%
+  );
 }
 
 /* FOOTER */
