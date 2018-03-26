@@ -161,27 +161,27 @@ h4::after {
 }
 
 .item-1::after {
-  background-image: url("/img/icon-1.png");
+  background-image: url("https://image.ibb.co/kSpvvS/icon_1.png");
 }
 
 .item-2::after {
-  background-image: url("/img/icon-2.png");
+  background-image: url("https://image.ibb.co/fYq2aS/icon_2.png");
 }
 
 .item-3::after {
-  background-image: url("/img/icon-3.png");
+  background-image: url("https://image.ibb.co/kDwavS/icon_3.png");
 }
 
 .item-4::after {
-  background-image: url("/img/icon-4.png");
+  background-image: url("https://image.ibb.co/bU0Ppn/icon_4.png");
 }
 
 .item-5::after {
-  background-image: url("/img/icon-5.png");
+  background-image: url("https://image.ibb.co/iKjjpn/icon_5.png");
 }
 
 .item-6::after {
-  background-image: url("/img/icon-6.png");
+  background-image: url("https://image.ibb.co/cm3Yh7/icon_6.png");
 }
 
 .services-list-item span {
@@ -242,7 +242,8 @@ h4::after {
 }
 
 .team-list-item:hover .team-list-item-gradient {
-  opacity: 0.9;
+  /* opacity: 0.9; */
+  visibility: visible;
 }
 
 .team-list-item-gradient {
@@ -258,7 +259,8 @@ h4::after {
   left: -10px;
   margin: 0;
   padding: 0;
-  opacity: 0;
+  opacity: 0.9;
+  visibility: hidden;
   box-shadow: 10px 10px rgba(149, 225, 211, 1);
   display: flex;
   justify-content: center;
@@ -291,19 +293,19 @@ h4::after {
 }
 
 .facebook {
-  background-image: url("/img/icon-f.png");
+  background-image: url("https://image.ibb.co/i6Tc9n/icon_f.png");
 }
 
 .twitter {
-  background-image: url("/img/icon-t.png");
+  background-image: url("https://image.ibb.co/fxQ2aS/icon_t.png");
 }
 
 .pinterest {
-  background-image: url("/img/icon-p.png");
+  background-image: url("https://image.ibb.co/mNSth7/icon_p.png");
 }
 
 .instagram {
-  background-image: url("/img/icon-i.png");
+  background-image: url("https://image.ibb.co/k4keN7/icon_i.png");
 }
 
 /* footer::before {
