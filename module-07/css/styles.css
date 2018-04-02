@@ -277,3 +277,11 @@ button {
   margin-bottom: 25px;
   padding: 0px;
 }
+
+.form-wrapper input:valid, textarea:valid {
+  outline: 2px solid #31ca31;
+}
+
+.form-wrapper input:invalid, textarea:invalid {
+  outline: 2px solid #ca3131;
+}
