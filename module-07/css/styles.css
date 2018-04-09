@@ -207,10 +207,23 @@ h2 {
 .contact {
   background-color: rgb(34, 34, 34);
   min-height: 676px;
+  padding-top: 100px;
+  position: relative;
+
+}
+
+.map-holder {
+  margin: 0 auto;
+  height: 676px;
+  width: 1400px;
   background-image: url("http://image.ibb.co/btKXkS/Map_Image.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  padding-top: 100px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: transparent;
 }
 
 .contact h2 {
