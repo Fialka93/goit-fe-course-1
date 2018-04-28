@@ -1,0 +1,66 @@
+/* COMMON */
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+  
+  .visually-hidden:not(:focus):not(:active),
+  input[type="checkbox"].visually-hidden,
+  input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  .list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .btn {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .link {
+      color: #ffffff;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 24px;
+      -webkit-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      font-weight: 700;
+  }
+  
+  .link:hover {
+    color: rgb(252, 227, 138);
+  }

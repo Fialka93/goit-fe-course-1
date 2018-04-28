@@ -1,0 +1,58 @@
+>>>COMMON
+list
+img
+btn
+icon
+link
+
+>>>BY CLASS NAMES
+wrapper-external
+wrapper-internal
+
+header
+
+page-nav
+
+logo
+    logo__img
+
+main-nav
+    main-nav__item
+    main-nav__link
+
+main-content
+
+site-section
+    section__desc
+    section__title
+    section__btn
+
+services
+
+welcome
+
+services
+    services__item
+    services__title
+    services__desc
+
+team
+    team__desc
+
+team-list
+    team-list__item
+    team-list__img
+    team-list__gradient
+    team-list__name
+    team-list__position
+
+icon-holder
+    icon--facebook
+    ...
+
+footer
+    footer__info
+
+subscribe
+    subscribe__input
+    subscribe__btn

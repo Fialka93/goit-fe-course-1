@@ -1,0 +1,125 @@
+.header {
+    height: 1000px;
+    margin-bottom: 50px;
+  }
+  
+  .page-nav {
+    min-height: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 200px;
+  }
+  
+  .logo {
+    font-size: 30px;
+    text-transform: none;
+  }
+  
+  .main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 692px;
+        flex-basis: 692px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .main-nav__link:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .main-nav__link::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: rgb(252, 227, 138);
+    opacity: 0;
+    -webkit-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    cursor: auto;
+  }
+  
+  .main-nav__link:hover::after,
+  .main-nav__link:focus::after {
+    opacity: 1;
+  }
+  
+  .main-nav__svg {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    fill: #ffffff;
+  }
+
+  .main-content {
+    margin-bottom: 30px;
+  }
+  
+  .site-section {
+    text-align: center;
+  }
+  
+  .section__desc {
+    color: rgb(51, 51, 51);
+    font-family: "Kaushan Script", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section__desc--header {
+    color: #ffffff;
+    font-size: 72px;
+    margin-bottom: 80px;
+  }
+  
+  .section__title {
+    color: rgb(51, 51, 51);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: -10px;
+  }
+  
+  .section__title--header {
+    color: #ffffff;
+    font-size: 150px;
+    line-height: 150px;
+    margin-bottom: 80px;
+  }
+  
+  .section__title--main::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: rgb(243, 129, 129);
+    margin: 0 auto;
+  }
+  
+  .link--header {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+  }
