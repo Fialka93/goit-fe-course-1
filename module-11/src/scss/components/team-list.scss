@@ -1,0 +1,87 @@
+.team-list {
+  @extend %list;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-width: 100%;
+
+  &__item {
+    position: relative;
+
+    &:hover .team-list__gradient {
+      visibility: visible;
+    }
+  }
+
+  &__img {
+    margin-bottom: 20px;
+  }
+
+  &__gradient {
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from($third-pink-color),
+      to($fourth-yellow-color)
+    );
+    background-image: -webkit-linear-gradient(
+      top,
+      $third-pink-color 0%,
+      $fourth-yellow-color 100%
+    );
+    background-image: -o-linear-gradient(
+      top,
+      $third-pink-color 0%,
+      $fourth-yellow-color 100%
+    );
+    background-image: linear-gradient(
+      180deg,
+      $third-pink-color 0%,
+      $fourth-yellow-color 100%
+    );
+    width: 100%;
+    height: 470px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    visibility: hidden;
+    -webkit-box-shadow: 10px 10px #95e1d3;
+    box-shadow: 10px 10px #95e1d3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+  }
+  &__name {
+    color: $secondary-grey-color;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  &__position {
+    color: #999999;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300i;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+  }
+}

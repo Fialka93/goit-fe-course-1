@@ -1,0 +1,66 @@
+.wrapper-external {
+  margin: 0;
+  padding: 0;
+  min-height: 800px;
+  margin-bottom: 40px;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(252, 227, 138, 0.9)),
+      to(rgba(243, 129, 129, 0.9))
+    ),
+    url("https://preview.ibb.co/enZZEH/bg_eagle.png");
+  background-image: -webkit-linear-gradient(
+      bottom,
+      rgba(252, 227, 138, 0.9) 0%,
+      rgba(243, 129, 129, 0.9) 100%
+    ),
+    url("https://preview.ibb.co/enZZEH/bg_eagle.png");
+  background-image: -o-linear-gradient(
+      bottom,
+      rgba(252, 227, 138, 0.9) 0%,
+      rgba(243, 129, 129, 0.9) 100%
+    ),
+    url("https://preview.ibb.co/enZZEH/bg_eagle.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(252, 227, 138, 0.9) 0%,
+      rgba(243, 129, 129, 0.9) 100%
+    ),
+    url("https://preview.ibb.co/enZZEH/bg_eagle.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 192dpi) {
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        from(rgba(252, 227, 138, 0.9)),
+        to(rgba(243, 129, 129, 0.9))
+      ),
+      url("https://preview.ibb.co/fNZegx/bg_eagle_2x.png");
+    background: -webkit-linear-gradient(
+        bottom,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%
+      ),
+      url("https://preview.ibb.co/fNZegx/bg_eagle_2x.png");
+    background: -o-linear-gradient(
+        bottom,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%
+      ),
+      url("https://preview.ibb.co/fNZegx/bg_eagle_2x.png");
+    background: linear-gradient(
+        0deg,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%
+      ),
+      url("https://preview.ibb.co/fNZegx/bg_eagle_2x.png");
+  }
+}

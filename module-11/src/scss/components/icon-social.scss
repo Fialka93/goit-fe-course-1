@@ -1,0 +1,21 @@
+.icon-social {
+  margin: 0;
+  padding: 13px;
+  border: none;
+  width: 54px;
+  height: 54px;
+  background: $fourth-yellow-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s linear;
+  -o-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+  fill: $third-pink-color;
+  display: block;
+
+  &:hover {
+    fill: $primary-white-color;
+    background: $third-pink-color;
+  }
+}

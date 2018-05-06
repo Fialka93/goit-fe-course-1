@@ -1,0 +1,11 @@
+@mixin center-flex($type: "all", $justify-content: center) {
+  display: flex;
+  @if $type == "all" {
+    justify-content: $justify-content;
+    align-items: center;
+  } @else if $type == "hor" {
+    justify-content: $justify-content;
+  } @else if $type == "ver" {
+    align-items: center;
+  }
+}

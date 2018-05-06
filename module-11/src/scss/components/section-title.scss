@@ -1,0 +1,30 @@
+.section__title {
+    color: $secondary-grey-color;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: -10px;
+
+    &--header {
+        color: $primary-white-color;
+        font-size: 150px;
+        line-height: 150px;
+        margin-bottom: 80px;
+      }
+
+      &--main::after {
+        @extend %pseudo;
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: #f38181;
+        margin: 0 auto;
+      }
+  }
+  
+
+  

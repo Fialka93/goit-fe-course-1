@@ -1,0 +1,20 @@
+.btn {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  &--subscribe {
+    background: $fourth-yellow-color;
+    height: 40px;
+    min-width: 151px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: $primary-white-color;
+    background: #95e1d3;
+    border: none;
+  }
+}

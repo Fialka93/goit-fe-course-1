@@ -1,0 +1,48 @@
+.services {
+  margin-bottom: 70px;
+
+  &__item {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: 80px;
+    -ms-flex-preferred-size: 380px;
+    flex-basis: 380px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  &__svg {
+    @extend %pseudo;
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 20px;
+    left: 20px;
+    fill: rgb(149, 225, 211);
+  }
+
+  &__title {
+    color: $secondary-grey-color;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  &__desc {
+    display: block;
+    text-align: left;
+    color: #999999;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
